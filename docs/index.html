@@ -87,7 +87,7 @@
 
                 <p>
                     Below we'll show the survey, the raw results, and show some interesting charts 
-                    that we made from the data. Oh, and of cours we do the science to determine whether
+                    that we made from the data. Oh, and of course we do the science to determine whether
                     snack preference predicts sex vs. cuddling. 
                 </p>
 
@@ -102,8 +102,8 @@
                 <h2 class="blog-post-title">The survey</h2>
 
                 <p>
-                    For the survery we asked questions in three different categories. We 
-                    first asked for some demographic information, then we moved on the the 18+ questions,
+                    For the survey we asked questions in three different categories. We 
+                    first asked for some demographic information, then we moved on the 18+ questions,
                     and finally we concluded by asking whether people prefer sweet snacks or savoury snacks. 
                     The questions are listed below:
                 </p>
@@ -142,7 +142,7 @@
 
                 <p>
                     In total we had around <em>2,150</em> responses to the survey, which is an absolutely 
-                    insane amount! So thanks r/SampleSize! Below is all of the raw data, represented as 
+                    insane amount! So thanks r/SampleSize! Below is all the raw data, represented as 
                     either histograms or pie charts. 
                 </p>
 
@@ -209,7 +209,7 @@
 
                 <p>
                     Moreover, we also built a linear model where we try to predict sex preferences based on all 
-                    features collected in the survey. In this model we see that there is no signifcance to the 
+                    features collected in the survey. In this model we see that there is no significance to the 
                     snacks feature, therefore indicating that it has no real predictive power. 
                 </p>
 
@@ -275,7 +275,7 @@
                 </div>
 
                 <p>
-                    When it comes to gender and relations we can observe from Figure 9 that females on Redit more 
+                    When it comes to gender and relations we can observe from Figure 9 that females on Reddit more 
                     often tend to have a partner than males on Reddit. 
                 </p>
 
@@ -286,7 +286,7 @@
 
                 <p>
                     Figure 10 shows us that there are pretty insignificant age difference between different groups if we
-                    look at relationship status and gener. However, males in relationship might be a tiny bit younger on 
+                    look at relationship status and gender. However, males in relationship might be a tiny bit younger on 
                     average.
                 </p>                
 
@@ -327,7 +327,7 @@
                 <h2 class="blog-post-title">In closing</h2>  
                 
                 <p>
-                    So, the most important takeway point here is that there is <b>no relation</b> between snacks and 
+                    So, the most important take-away point here is that there is <b>no relation</b> between snacks and 
                     sexual preference (A real shocker, I know!). Additionally, it is interesting to see how the 
                     population of reddit is divided, and especially how sexual preferences is distributed over 
                     relationship status and gender.  Also, we might have a problem taking things too seriously,
@@ -352,15 +352,33 @@
                 <h4 class="font-italic">About</h4>
                 <p class="mb-0">
                     <p>
-                        We're two students at a Dutch technical university. Neither of us has a datascience background, so apologies for any mistakes
+                        We're two students at a Dutch technical university. Neither of us has a data science background, so apologies for any mistakes
                         we might have made. Don't hesitate to comment on the Reddit tread with any comments you might have. 
                     </p>
                     <p>
                         Even though there might be some small mistakes in here we
-                        were interested in seing if we could solve this problem. The cool graphs we generated are just a nice bonus that we 
+                        were interested in seeing if we could solve this problem. The cool graphs we generated are just a nice bonus that we 
                         wanted to share.
                        
                     </p>
+
+                     
+                    <div id="reddit_names" style="visibility: hidden">Find us on Redit at <a href="https://reddit.com/u/juultje">Juultje</a>
+                        and <a href="https://reddit.com/u/thedutchdevil">TheDutchDevil</a>.</div>
+
+                        <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                            <input type="hidden" name="business"
+                                value="nathancassee@gmail.com">
+                            <input type="hidden" name="cmd" value="_donations">
+                            <input type="hidden" name="item_name" value="Snackstats">
+                            <input type="hidden" name="item_number" value="dona">
+                            <input type="hidden" name="currency_code" value="USD">
+                            <input type="image" name="submit" src="https://www.paypalobjects.com/webstatic/en_US/i/btn/png/btn_donate_92x26.png"
+                            alt="Donate">
+                            <img alt="" width="1" height="1"
+                            src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
+                        
+                        </form>
                 </p>
               </div>
     
@@ -388,8 +406,8 @@
 
     
         <script>
-                if(window.location.href.toLowerCase().includes('?raw')) {
-                    document.getElementById('reddit_names').remove();
+                if(window.location.href.toLowerCase().includes('?full')) {
+                    document.getElementById('reddit_names').style.visibility = 'visible';
                 }
             </script>
 
