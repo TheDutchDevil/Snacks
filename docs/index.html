@@ -353,8 +353,8 @@
                     </p>
                     <p>
                         Even though there might be some small mistakes in here we
-                        were interested in seing if we could solve this problem. Find us on Redit at <a href="https://reddit.com/u/juultje">Juultje</a>
-                        and <a href="https://reddit.com/u/thedutchdevil">TheDutchDevil</a>.
+                        were interested in seing if we could solve this problem. <div id="reddit_names">Find us on Redit at <a href="https://reddit.com/u/juultje">Juultje</a>
+                        and <a href="https://reddit.com/u/thedutchdevil">TheDutchDevil</a>.</div>
                     </p>
                 </p>
               </div>
@@ -381,6 +381,13 @@
 
 
 
+    
+        <script>
+                if(window.location.href.toLowerCase().includes('?raw')) {
+                    document.getElementById('reddit_names').remove();
+                }
+            </script>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -393,6 +400,7 @@
       
     
     <svg xmlns="http://www.w3.org/2000/svg" width="200" height="250" viewBox="0 0 200 250" preserveAspectRatio="none" style="display: none; visibility: hidden; position: absolute; top: -100%; left: -100%;"><defs><style type="text/css"></style></defs><text x="0" y="13" style="font-weight:bold;font-size:13pt;font-family:Arial, Helvetica, Open Sans, sans-serif">Thumbnail</text></svg></body>
+
 
 </body>
 
